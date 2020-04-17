@@ -5,4 +5,13 @@
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
+.App .tab-content .active{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .tab-content .active .col-sm-6 .card{
+  margin: 2%;
+}
 /* write your parent styles in here for your App.js */
